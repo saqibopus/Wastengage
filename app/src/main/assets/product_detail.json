@@ -1,0 +1,65 @@
+{
+  "status": "success",
+  "data": [
+    {
+      "id": "1",
+      "type": "Waste Handling Tools",
+      "typeId": "1",
+      "name": "Dustbin Set",
+      "price": "300",
+      "shortDesc": "No of dustbins: 2",
+      "fullDesc": "<h2>Dustbin Set</h2> <p><strong>No of dustbins:</strong> 2</p><br><p><strong>Capacity:</strong> 10 ltrs each</p><br>  <p><strong>Colour:</strong> Green &amp; Blue</p><br> <p><strong>Type:</strong> Virgin &amp; Recyclable P5</p><br> <p><strong>Set includes:</strong> Dustbin with handle &amp; lid</p><br>",
+      "image": "http://wastengage.com/wp/wp-content/uploads/2017/09/Dustbin.jpg"
+    },
+    {
+      "id": "2",
+      "type": "Waste Handling Tools",
+      "typeId": "1",
+      "name": "Dustbin Liners",
+      "price": "100",
+      "shortDesc": "Quantity: 1 roll ( 30 bags )",
+      "fullDesc": "<h2>Dustbin Liners</h2><br><p><strong>Quantity:</strong> 1 roll ( 30 bags )</p><br><p><strong>Size:</strong> 19’x21’x20′ micron</p><br><p><strong>Colour:</strong> Green</p><br><p><strong>Properties:</strong></p><br><ul><br><li>Made from Corn</li><br> <li>Light weight</li><br> <li>Perforated</li><br> <li>100% Biodegradable &amp; Compostable</li><br> <li>Plastic free</li><br> <li>Eco-friendly</li><br> </ul><br> <p><strong>Uses:</strong></p><br> <ul><br> <li> Can be used in Kitchen, Office, Canteen, Pantry, Hospitals, Salons, Pet care areas</li><br> <li> Liner for filling Kitchen waste, garden waste, food leftovers, dog &amp; cat poop , litter.</li><br> </ul><br> <p><strong>Features: </strong></p><br> <ul><br>  <li>Decomposes when water, sunlight, food waste comes in contact with liner</li><br> <li>When stored in normal temperature, does not decompose till a year.</li><br> </ul><br> <p><br> ",
+      "image": "http://wastengage.com/wp/wp-content/uploads/2017/09/Liners.jpg"
+    },
+    {
+      "id":"3",
+      "type":"Waste Handling Tools",
+      "typeId":"1",
+      "name":"Kitchen Waste Composting Kit",
+      "price":"1500",
+      "shortDesc":"Various composing kit",
+      "fullDesc": "<h2>Kitchen Waste Composting Kit</h2><ul><li>Pots</li><br><li>Bioculture</li><br><li>Sprayer</li><br><li>Shovel</li><br><li>Green Lid</li><br><li>Sawdust</li><br></ul><p>",
+      "image":"http://wastengage.com/wp/wp-content/uploads/2018/03/IMG_20180122_113705.jpg"
+    },
+    {
+      "id":"4",
+      "type":"Vermi Compost",
+      "typeId":"2",
+      "name":"Vermi Compost",
+      "price":"1500",
+      "shortDesc":"Manure made by earthworms that nourishes the soil , prevents top soil from getting hard, keeps soil moist for longer time.",
+      "fullDesc": "<h2>Vermi Compost</h2><br><p>Manure made by earthworms that nourishes the soil , prevents top soil from getting hard, keeps soil moist for longer time.</p><br><p>Qty: 1 KG.</p><p>",
+      "image":"http://wastengage.com/wp/wp-content/uploads/2018/03/IMG_20180215_111244.jpg"
+    },
+    {
+      "id":"5",
+      "type":"Earthworms",
+      "typeId":"3",
+      "name":"Vermi Compost",
+      "price":"1500",
+      "shortDesc":"We supply Eisenia Foetida breed of earthworms used for vermicomposting.",
+      "fullDesc": "<h2>Earthworms</h2><br><p>We supply Eisenia Foetida breed of earthworms  used for vermicomposting.<br></p><br><p>Qty: 1 KG.</p><p>",
+      "image":"http://wastengage.com/wp/wp-content/uploads/2018/03/IMG_20180223_125932.jpg"
+    },
+    {
+      "id":"6",
+      "type":"Bioculture",
+      "typeId":"4",
+      "name":"Bioculture",
+      "price":"350",
+      "shortDesc":"Lactic acid bacteria",
+      "fullDesc": "<h2>Bioculture</h2><br><p><strong><br>Contents:</strong></p><br><ul><li>Lactic acid bacteria</li><br><li>Photosynthetic bacteria</li><br><li>Yeast</li></ul><br><p><strong>Precautions:</strong></p><br><ul><br><li>Don’t mix composting culture with pesticides, fungicides &amp; chiorinated water.</li><br><li>Store in cool, dry place away from sunlight.</li><br><li>Bacterial liquid culture for kitchen and garden waste composting projects</li></ul><br><p><strong>Qty: 1 Ltr.</strong></p><p>",
+      "image":"http://wastengage.com/wp/wp-content/uploads/2018/03/IMG_20180122_111537.jpg"
+    }
+  ]
+}

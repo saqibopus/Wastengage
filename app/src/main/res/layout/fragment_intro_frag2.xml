@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/colorPrimary"
+    tools:context="wastengage.valian.com.wastengage.Intro.IntroFrag2">
+
+    <!-- TODO: Update blank fragmabout_us_layoutyout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/_16sdp"
+        android:textColor="@color/white"
+        android:text="What we are doing ??" />
+    <TextView
+        android:gravity="center"
+
+        android:textSize="@dimen/_16sdp"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Saving Earth" />
+
+</LinearLayout>

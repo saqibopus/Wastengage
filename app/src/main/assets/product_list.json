@@ -1,0 +1,59 @@
+{
+  "status":"success",
+  "products":[
+    {
+      "id":"1",
+      "type":"Waste Handling Tools",
+      "typeId":"1",
+      "name":"Dustbin Set",
+      "price":"300",
+      "shortDesc":"No of dustbins: 2",
+      "image":"http://wastengage.com/wp/wp-content/uploads/2017/09/Dustbin.jpg"
+    },
+    {
+      "id":"2",
+      "type":"Waste Handling Tools",
+      "typeId":"1",
+      "name":"Dustbin Liners",
+      "price":"100",
+      "shortDesc":"Quantity: 1 roll ( 30 bags )",
+      "image":"http://wastengage.com/wp/wp-content/uploads/2017/09/Liners.jpg"
+    },
+    {
+      "id":"3",
+      "type":"Waste Handling Tools",
+      "typeId":"1",
+      "name":"Kitchen Waste Composting Kit",
+      "price":"1500",
+      "shortDesc":"Various composing kit",
+      "image":"http://wastengage.com/wp/wp-content/uploads/2018/03/IMG_20180122_113705.jpg"
+    },
+    {
+      "id":"4",
+      "type":"Vermi Compost",
+      "typeId":"2",
+      "name":"Vermi Compost",
+      "price":"1500",
+      "shortDesc":"Manure made by earthworms that nourishes the soil , prevents top soil from getting hard, keeps soil moist for longer time.",
+      "image":"http://wastengage.com/wp/wp-content/uploads/2018/03/IMG_20180215_111244.jpg"
+    },
+    {
+      "id":"5",
+      "type":"Earthworms",
+      "typeId":"3",
+      "name":"Vermi Compost",
+      "price":"1500",
+      "shortDesc":"We supply Eisenia Foetida breed of earthworms used for vermicomposting.",
+      "image":"http://wastengage.com/wp/wp-content/uploads/2018/03/IMG_20180223_125932.jpg"
+    },
+    {
+      "id":"6",
+      "type":"Bioculture",
+      "typeId":"4",
+      "name":"Bioculture",
+      "price":"350",
+      "shortDesc":"Lactic acid bacteria",
+      "image":"http://wastengage.com/wp/wp-content/uploads/2018/03/IMG_20180122_111537.jpg"
+    }
+  ]
+}
