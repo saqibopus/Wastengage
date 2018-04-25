@@ -1,6 +1,29 @@
 {
   "status": "success",
-  "data": [
+  "pdf_list": [
+    {
+      "id": "1",
+      "url": ""
+    },
+    {
+      "id": "2",
+      "url": ""
+    },
+    {
+      "id": "3",
+      "url": ""
+    }
+  ],
+  "about_us": {
+    "url": ""
+  },
+  "services": {
+    "url": ""
+  },
+  "contact_us": {
+    "url": ""
+  },
+  "products": [
     {
       "id": "1",
       "type": "Waste Handling Tools",
@@ -22,44 +45,44 @@
       "image": "http://wastengage.com/wp/wp-content/uploads/2017/09/Liners.jpg"
     },
     {
-      "id":"3",
-      "type":"Waste Handling Tools",
-      "typeId":"1",
-      "name":"Kitchen Waste Composting Kit",
-      "price":"1500",
-      "shortDesc":"Various composing kit",
+      "id": "3",
+      "type": "Waste Handling Tools",
+      "typeId": "1",
+      "name": "Kitchen Waste Composting Kit",
+      "price": "1500",
+      "shortDesc": "Various composing kit",
       "fullDesc": "<h2>Kitchen Waste Composting Kit</h2><ul><li>Pots</li><br><li>Bioculture</li><br><li>Sprayer</li><br><li>Shovel</li><br><li>Green Lid</li><br><li>Sawdust</li><br></ul><p>",
-      "image":"http://wastengage.com/wp/wp-content/uploads/2018/03/IMG_20180122_113705.jpg"
+      "image": "http://wastengage.com/wp/wp-content/uploads/2018/03/IMG_20180122_113705.jpg"
     },
     {
-      "id":"4",
-      "type":"Vermi Compost",
-      "typeId":"2",
-      "name":"Vermi Compost",
-      "price":"1500",
-      "shortDesc":"Manure made by earthworms that nourishes the soil , prevents top soil from getting hard, keeps soil moist for longer time.",
+      "id": "4",
+      "type": "Vermi Compost",
+      "typeId": "2",
+      "name": "Vermi Compost",
+      "price": "1500",
+      "shortDesc": "Manure made by earthworms that nourishes the soil , prevents top soil from getting hard, keeps soil moist for longer time.",
       "fullDesc": "<h2>Vermi Compost</h2><br><p>Manure made by earthworms that nourishes the soil , prevents top soil from getting hard, keeps soil moist for longer time.</p><br><p>Qty: 1 KG.</p><p>",
-      "image":"http://wastengage.com/wp/wp-content/uploads/2018/03/IMG_20180215_111244.jpg"
+      "image": "http://wastengage.com/wp/wp-content/uploads/2018/03/IMG_20180215_111244.jpg"
     },
     {
-      "id":"5",
-      "type":"Earthworms",
-      "typeId":"3",
-      "name":"Vermi Compost",
-      "price":"1500",
-      "shortDesc":"We supply Eisenia Foetida breed of earthworms used for vermicomposting.",
+      "id": "5",
+      "type": "Earthworms",
+      "typeId": "3",
+      "name": "Vermi Compost",
+      "price": "1500",
+      "shortDesc": "We supply Eisenia Foetida breed of earthworms used for vermicomposting.",
       "fullDesc": "<h2>Earthworms</h2><br><p>We supply Eisenia Foetida breed of earthworms  used for vermicomposting.<br></p><br><p>Qty: 1 KG.</p><p>",
-      "image":"http://wastengage.com/wp/wp-content/uploads/2018/03/IMG_20180223_125932.jpg"
+      "image": "http://wastengage.com/wp/wp-content/uploads/2018/03/IMG_20180223_125932.jpg"
     },
     {
-      "id":"6",
-      "type":"Bioculture",
-      "typeId":"4",
-      "name":"Bioculture",
-      "price":"350",
-      "shortDesc":"Lactic acid bacteria",
+      "id": "6",
+      "type": "Bioculture",
+      "typeId": "4",
+      "name": "Bioculture",
+      "price": "350",
+      "shortDesc": "Lactic acid bacteria",
       "fullDesc": "<h2>Bioculture</h2><br><p><strong><br>Contents:</strong></p><br><ul><li>Lactic acid bacteria</li><br><li>Photosynthetic bacteria</li><br><li>Yeast</li></ul><br><p><strong>Precautions:</strong></p><br><ul><br><li>Don’t mix composting culture with pesticides, fungicides &amp; chiorinated water.</li><br><li>Store in cool, dry place away from sunlight.</li><br><li>Bacterial liquid culture for kitchen and garden waste composting projects</li></ul><br><p><strong>Qty: 1 Ltr.</strong></p><p>",
-      "image":"http://wastengage.com/wp/wp-content/uploads/2018/03/IMG_20180122_111537.jpg"
+      "image": "http://wastengage.com/wp/wp-content/uploads/2018/03/IMG_20180122_111537.jpg"
     }
   ]
 }

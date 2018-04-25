@@ -1,33 +1,34 @@
 package wastengage.valian.com.wastengage;
 
-import android.content.Intent;
+import android.app.Activity;
+import android.content.DialogInterface;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
 import android.support.design.widget.CoordinatorLayout;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
-import android.widget.Toast;
 
 import wastengage.valian.com.wastengage.CollectionRequest.CollectionMainFrag;
 import wastengage.valian.com.wastengage.aboutus.AboutUsFrag;
 import wastengage.valian.com.wastengage.helper.BottomNavigationBehavior;
-import wastengage.valian.com.wastengage.main.Main2Activity;
 import wastengage.valian.com.wastengage.product_listing.FragmentProductListing;
 
 public class MainActivity extends AppCompatActivity implements BottomNavigationView.OnNavigationItemSelectedListener {
     private BottomNavigationView navigation;
     private Toolbar toolbar;
+    private AlertDialog exitDilog;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
-
-      //  initToolbar();
+        exitDilog = simpleAlert(MainActivity.this, "Are you sure you want to exit?");
+        //  initToolbar();
         initNavigationView();
 
         /*Intent i = new Intent(MainActivity.this,Main2Activity.class);
@@ -74,13 +75,30 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
     private void loadFragment(Fragment fragment) {
         FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
         transaction.replace(R.id.frame_container, fragment);
-        transaction.addToBackStack(null);
+        // transaction.addToBackStack(null);
         transaction.commit();
     }
 
     @Override
     public void onBackPressed() {
-        super.onBackPressed();
-        Toast.makeText(MainActivity.this,"back press",Toast.LENGTH_SHORT).show();
+        exitDilog.show();
+
+    }
+
+    private AlertDialog simpleAlert(final Activity activity, String message) {
+        AlertDialog.Builder builder = new AlertDialog.Builder(activity);
+        builder.setMessage(message)
+                .setPositiveButton("OK", new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int id) {
+                        MainActivity.this.finish();
+
+                    }
+                })
+                .setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int id) {
+
+                    }
+                });
+        return builder.create();
     }
 }
