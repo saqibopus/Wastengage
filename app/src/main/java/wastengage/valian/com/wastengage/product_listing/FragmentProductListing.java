@@ -19,7 +19,7 @@ import java.util.List;
 
 import wastengage.valian.com.wastengage.Networking.LocalParser;
 import wastengage.valian.com.wastengage.R;
-import wastengage.valian.com.wastengage.helper.Logger;
+import wastengage.valian.com.wastengage.helper.Logs;
 
 
 public class FragmentProductListing extends Fragment {

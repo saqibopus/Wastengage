@@ -15,7 +15,7 @@ import java.util.List;
 
 import wastengage.valian.com.wastengage.Networking.LocalParser;
 import wastengage.valian.com.wastengage.R;
-import wastengage.valian.com.wastengage.helper.Logger;
+import wastengage.valian.com.wastengage.helper.Logs;
 
 public class ProductFullView extends AppCompatActivity {
 
@@ -34,7 +34,7 @@ public class ProductFullView extends AppCompatActivity {
         setContentView(R.layout.activity_product_full_view);
         try{
             id = getIntent().getExtras().getString("id");
-            Logger.p("id: "+id);
+            Logs.p("id: "+id);
         }catch (Exception e){
 
         }

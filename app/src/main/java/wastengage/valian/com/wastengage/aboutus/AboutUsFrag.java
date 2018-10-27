@@ -12,6 +12,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.webkit.WebView;
+import android.webkit.WebViewClient;
 import android.widget.LinearLayout;
 import android.widget.RadioGroup;
 
@@ -102,8 +103,11 @@ public class AboutUsFrag extends Fragment {
 
         radioGroup = (RadioGroup) v.findViewById(R.id.radioGroup1);
         webViewService = (WebView) v.findViewById(R.id.webviewServices);
+        webViewService.setWebViewClient(new MyBrowser());
         webViewAboutUs = (WebView) v.findViewById(R.id.webviewAboutUs);
+        webViewAboutUs.setWebViewClient(new MyBrowser());
         webViewContactUs = (WebView) v.findViewById(R.id.webviewContactUs);
+        webViewContactUs.setWebViewClient(new MyBrowser());
 
         webViewService.loadUrl("http://wastengage.com/?page_id=6");
         webViewAboutUs.loadUrl("http://wastengage.com/?page_id=6");
@@ -140,6 +144,14 @@ public class AboutUsFrag extends Fragment {
         models.add(new PdfListModel(1, "i am name2", "image", "https://repository.up.ac.za/dspace/bitstream/handle/2263/27367/03chapter3.pdf"));
         models.add(new PdfListModel(1, "i am name3", "image", "https://cran.r-project.org/doc/manuals/r-release/R-data.pdf"));
         return models;
+    }
+
+    private class MyBrowser extends WebViewClient {
+        @Override
+        public boolean shouldOverrideUrlLoading(WebView view, String url) {
+            view.loadUrl(url);
+            return true;
+        }
     }
 
 }

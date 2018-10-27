@@ -11,11 +11,22 @@ import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.MenuItem;
+
+import com.androidnetworking.AndroidNetworking;
+import com.androidnetworking.common.Priority;
+import com.androidnetworking.error.ANError;
+import com.androidnetworking.interfaces.JSONArrayRequestListener;
+import com.androidnetworking.interfaces.JSONObjectRequestListener;
+
+import org.json.JSONArray;
+import org.json.JSONObject;
 
 import wastengage.valian.com.wastengage.CollectionRequest.CollectionMainFrag;
 import wastengage.valian.com.wastengage.aboutus.AboutUsFrag;
 import wastengage.valian.com.wastengage.helper.BottomNavigationBehavior;
+import wastengage.valian.com.wastengage.helper.Logs;
 import wastengage.valian.com.wastengage.product_listing.FragmentProductListing;
 
 public class MainActivity extends AppCompatActivity implements BottomNavigationView.OnNavigationItemSelectedListener {
@@ -33,6 +44,24 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
 
         /*Intent i = new Intent(MainActivity.this,Main2Activity.class);
         startActivity(i);*/
+
+        AndroidNetworking.get("http://wastengage.com/wp-json/wp/v2/product/")
+                .setPriority(Priority.LOW)
+                .build()
+                .getAsJSONObject(new JSONObjectRequestListener() {
+
+                    @Override
+                    public void onResponse(JSONObject response) {
+                        Logs.t(MainActivity.this,"Responce : "+response);
+                        Logs.p("Responce : "+response);
+                    }
+
+                    @Override
+                    public void onError(ANError error) {
+                        Logs.t(MainActivity.this,"Error : ");
+                        Logs.p("Error : "+error.getMessage());
+                    }
+                });
     }
 
     /*private void initToolbar() {
